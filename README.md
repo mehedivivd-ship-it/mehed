@@ -66,3 +66,13 @@ King County (Seattle) house sales data দিয়ে বাড়ির দা
 
 ## 👤 Author
 **Mehedi** — [GitHub](https://github.com/mehedivd-shp-it)
+
+## 📥 Download Trained Model
+
+Pre-trained model available in [Releases](../../releases).
+
+```python
+import joblib
+
+model = joblib.load('house_price_xgboost.pkl')
+predictions = model.predict(new_data)
